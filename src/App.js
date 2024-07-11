@@ -1,6 +1,7 @@
 import React from 'react';
 import { FlashCardArray } from 'react-flashcards';
 import flashcards from './cardData';
+import './Flashcards.css';
 
 const MyFlashcardComponent = () => {
 
