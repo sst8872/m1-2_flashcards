@@ -420,3 +420,5 @@ const flashcards = [
     { id: 417, front: <h1>would</h1>, back: <p>~일 것이다 (will의 과거형)</p> },
     { id: 418, front: <h1>zebra</h1>, back: <p> 얼룩말</p> }
 ];
+
+export default flashcards;
