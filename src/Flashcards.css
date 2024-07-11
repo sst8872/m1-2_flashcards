@@ -10,3 +10,8 @@
     font-style: normal;
     font-size: 1.8em;
 }
+
+.FlashcardWrapper__item--content {
+   background-color: rgba(144, 238, 144, 0.2);
+
+}
