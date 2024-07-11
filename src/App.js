@@ -1,30 +1,8 @@
 import React from 'react';
 import { FlashCardArray } from 'react-flashcards';
+import flashcards from './cardData';
 
 const MyFlashcardComponent = () => {
-  const flashcards = [
-    {
-      id: 1,
-      front: <h1>Front of Card One</h1>,
-      back: <p>Back of Card Two</p>
-      // Other properties...
-    },
-    {
-      id: 2,
-
-      front: <h1>Front of Card One</h1>,
-      back: <p>Back of Card Two</p>
-      // Other properties...
-    },
-    {
-      id: 3,
-
-      front: <h1>Front of Card One</h1>,
-      back: <p>Back of Card Two</p>
-      // Other properties...
-    }
-    // Add more flashcards as needed
-  ];
 
   return (
       <FlashCardArray
