@@ -1,9 +1,9 @@
 import React from ".";
 
 const flashcards = [
-    { id: 1, front: <h1>able</h1>, back: <p>능력 있는</p> },
-    { id: 2, front: <h1>accident</h1>, back: <p>사고</p> },
-    { id: 3, front: <h1>advice</h1>, back: <p>조언</p> },
+    { id: 1, front: <h1>able</h1>, back: <p>능력 있는</p>, isBookmarked: false },
+    { id: 2, front: <h1>accident</h1>, back: <p>사고</p>, isBookmarked: true },
+    { id: 3, front: <h1>advice</h1>, back: <p>조언</p> , isBookmarked: false,},
     { id: 4, front: <h1>advantage</h1>, back: <p>이점</p> },
     { id: 5, front: <h1>adventure</h1>, back: <p>모험</p> },
     { id: 6, front: <h1>advise</h1>, back: <p>조언하다</p> },
